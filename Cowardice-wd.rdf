@@ -1,0 +1,382 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.4="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.7="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_15_20_trait">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">15</j.3:begins>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</j.3:ends>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Trait"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#trait_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trait</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Cowardice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Prevent">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Prevent_67000000"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Preventing"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Thwarting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Excessive">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-excessive-adjectivesatellite-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#from">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_81_85_risk">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risk</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Risk"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">81</j.3:begins>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#risk_1"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">85</j.3:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_29_43_excessive+fear">
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</j.3:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">excessive fear</rdfs:label>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#ExcessiveFear"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excessive Fear</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_29_38_excessive">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Excessive"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">excessive</rdfs:label>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</j.3:begins>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_89_95_facing">
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">89</j.3:begins>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#face_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facing</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Face"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">95</j.3:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_39_43_fear">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#fear_1"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.3:ends>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">39</j.3:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Fear"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.3:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cowardice is a trait wherein excessive fear prevents an individual from taking a risk or facing danger.</j.3:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_72_78_taking">
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">72</j.3:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#take_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taking</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Take"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">78</j.3:ends>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Fear">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Fear"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Fear"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-fear-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_86_88_or">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Union"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">88</j.3:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#thing_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-fear-noun-1">
+    <j.4:gloss xml:lang="en-us">an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight)</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Face">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Face_98000000"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ConfrontingProblem"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/HostileEncounter"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Risk">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/BeingAtRisk"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Endangering"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-hazard-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/RunRisk"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Risk"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/RiskySituation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#face_1">
+    <j.8:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#thing_2"/>
+    <j.8:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#danger_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Face"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#TraitWherein">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Wherein"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.7:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Trait"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#fear_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#ExcessiveFear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#take_1">
+    <j.8:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#risk_1"/>
+    <j.0:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#face_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Take"/>
+    <j.8:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#thing_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_0_9_Cowardice">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Cowardice"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Trait"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cowardice</rdfs:label>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.3:begins>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Wherein"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_44_52_prevents">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prevents</rdfs:label>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBZ"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">52</j.3:ends>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">44</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Prevent"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#prevent_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_96_102_danger">
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">96</j.3:begins>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Danger"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">danger</rdfs:label>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">102</j.3:ends>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#danger_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#danger_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Danger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Danger">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Daring"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Risk"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-risk-noun-2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-hazard-noun-1">
+    <j.4:gloss xml:lang="en-us">a source of danger; a possibility of incurring loss or misfortune; "drinking alcohol is a health hazard"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#trait_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Trait"/>
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <j.7:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Cowardice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#prevent_1">
+    <j.0:from rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#thing_2"/>
+    <j.0:from rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#thing_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Prevent"/>
+    <j.8:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#individual_1"/>
+    <j.7:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Cowardice"/>
+    <j.8:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#fear_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#risk_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Risk"/>
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Individual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-person-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Individualism"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_tops"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-risk-noun-2">
+    <j.4:gloss xml:lang="en-us">a venture undertaken without regard to possible loss or injury; "he saw the rewards but not the risks of crime"; "there was a danger he would do the wrong thing"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_15_28_trait+wherein">
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">15</j.3:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trait wherein</rdfs:label>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.3:ends>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#TraitWherein"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trait Wherein</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Cowardice">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Cowardice"/>
+    <j.5:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#TraitWherein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_56_66_individual">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual</rdfs:label>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Individual"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">66</j.3:ends>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#individual_1"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">56</j.3:begins>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Take">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Take_10050000"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Cotheme"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Taking"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Conquering"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Getting"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ChangeOfLeadership"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EarningsAndLosses"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Bringing"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ChangeOfQuantityOfPossession"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Removing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Wherein">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#individual_1">
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#an"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Individual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_21_28_wherein">
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.3:ends>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Cowardice"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wherein</rdfs:label>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">21</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Wherein"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#wherein_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Trait">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-trait-noun-1"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#ExcessiveFear">
+    <j.7:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Excessive"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#Fear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-person-noun-1">
+    <j.4:gloss xml:lang="en-us">a human being; "there was too much for one person to do"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-trait-noun-1">
+    <j.4:gloss xml:lang="en-us">a distinguishing feature of your personal nature</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#offset_67_71_from">
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">71</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Cowardice-wd.rdf#From"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">67</j.3:begins>
+  </rdf:Description>
+</rdf:RDF>
