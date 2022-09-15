@@ -1,0 +1,401 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:j.2="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#"
+    xmlns:j.3="http://dbpedia.org/resource/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.7="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.8="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.10="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Hatred">
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Emotional"/>
+    <j.9:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Angry"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Hatred"/>
+    <j.2:towards rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#people_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#VeryAngryEmotionalResponse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#people_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Idea"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#CertainPeople"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Dislike">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ExperiencerFocus"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Dislike_31020100"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Idea">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#AngryEmotionalResponse">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#EmotionalResponse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Certain">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Likelihood"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Idiosyncrasy"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-certain-adjectivesatellite-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#UsuallyRelate">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Relate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_12_41_very+angry+emotional+response">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very angry emotional response</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very Angry Emotional Response</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</j.7:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#VeryAngryEmotionalResponse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Response">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CommunicationResponse"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Response"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Process"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-reaction-noun-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse">
+    <j.7:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hatred is a very angry emotional response towards certain people or ideas, usually related to disliking something</j.7:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#People">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-people-noun-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_group"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_23_41_emotional+response">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotional Response</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</j.7:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#EmotionalResponse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional response</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-people-noun-1">
+    <j.8:gloss xml:lang="en-us">(plural) any group of human beings (men or women or children) collectively; "old people"; "there were at least 200 people in the audience"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Very">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-very-adjectivesatellite-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Accuracy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#thing_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_17_41_angry+emotional+response">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angry emotional response</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angry Emotional Response</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">17</j.7:begins>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#AngryEmotionalResponse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_58_64_people">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#people_1"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#People"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">64</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">58</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Experiencer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#CertainPeople">
+    <j.5:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#People"/>
+    <j.5:hasModality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Certain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_42_49_towards">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">towards</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Towards"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_17_22_angry">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angry</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">17</j.7:begins>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Angry"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Relate">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Relate_37070100"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Statement"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#dislike_1">
+    <j.10:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#thing_2"/>
+    <j.10:Experiencer rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#thing_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Dislike"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#VeryAngryEmotionalResponse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#AngryEmotionalResponse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_68_73_ideas">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#idea_1"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Idea"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">73</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ideas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_94_103_disliking">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94</j.7:begins>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">103</j.7:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Dislike"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#dislike_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disliking</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-reaction-noun-3">
+    <j.8:gloss xml:lang="en-us">a bodily process occurring due to the effect of some antecedent stimulus or agent; "a bad reaction to the medicine"; "his responses have slowed with age"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#idea_1">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Idea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#relate_1">
+    <j.10:Topic rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Hatred"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Usually"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#UsuallyRelate"/>
+    <j.10:Recipient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#thing_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#towards">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_104_113_something">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">something</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">104</j.7:begins>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#DT"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#thing_2"/>
+    <j.1:hasInterpretant rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_50_57_certain">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">certain</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Certain"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#disjunct_2">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Idea"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#people_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Disjunct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_83_90_related">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">83</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#relate_1"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Relate"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#response_1">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_23_32_emotional">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">32</j.7:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Emotional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_65_67_or">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Union"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">67</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Usually">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Recipient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_0_6_Hatred">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Hatred"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.7:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Response"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hatred</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_91_93_to">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</j.7:begins>
+    <j.1:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Recipient"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">93</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#EmotionalResponse">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Emotion"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Emotional"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Response"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_33_41_response">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Hatred"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Response"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#response_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Angry">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-angry-adjective-1"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Very"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Anger"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_50_64_certain+people">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#CertainPeople"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">certain people</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">64</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Certain People</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_75_82_usually">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#RB"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">82</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">usually</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Usually"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">75</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#offset_12_16_very">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Very"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#RB"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#disjunct_1">
+    <j.2:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#disjunct_2"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#people_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#People"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Emotional">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#Very"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-emotional-adjective-1"/>
+  </rdf:Description>
+</rdf:RDF>
