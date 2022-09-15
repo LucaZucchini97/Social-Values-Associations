@@ -122,7 +122,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Intimate">
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SocialConnection"/>
     <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
     <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-intimate-adjectivesatellite-1"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -145,7 +144,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Attitude">
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
     <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-attitude-noun-1"/>
     <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
@@ -207,7 +205,6 @@
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Value">
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Amount"/>
     <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Usefulness"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
     <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-value-noun-1"/>
   </rdf:Description>
@@ -247,10 +244,8 @@
     <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-reaction-noun-3"/>
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Process"/>
     <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Response"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CommunicationResponse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_28_30_or">
     <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
@@ -338,7 +333,6 @@
     <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Connection">
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SocialConnection"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_relation"/>
     <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
@@ -375,11 +369,7 @@
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Perceive">
     <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
     <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Perceive_30020000"/>
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Perception"/>
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PerceptionExperience"/>
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/BecomingAware"/>
-    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#value_1">
     <j.2:valueOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#neuter_1"/>
