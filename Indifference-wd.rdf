@@ -1,0 +1,284 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#"
+    xmlns:j.4="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.5="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.7="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_65_70_about">
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">70</j.4:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#About"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#disjunct_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Disjunct"/>
+    <j.3:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#disjunct_2"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Emotion"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Lack"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#interest_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#feeling_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#emotion_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Feeling"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Interest"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Indifference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_44_52_interest">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interest</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#interest_1"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Interest"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">52</j.4:ends>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">44</j.4:begins>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_42_43_%2C">
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.4:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</j.4:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Rel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_23_25_of">
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</j.4:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.4:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Of"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_18_22_lack">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Lack"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lack</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Indifference"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</j.4:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#lack_1"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</j.4:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#feeling_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Feeling"/>
+    <j.8:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#emotion_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-lack-noun-1">
+    <j.5:gloss xml:lang="en-us">the state of needing something that is absent or unavailable; "there is a serious lack of insight into the problem"; "water is the critical deficiency in desert regions"; "for want of a nail the shoe was lost"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_26_33_feeling">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeling</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.4:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Feeling"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">26</j.4:begins>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#feeling_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#about">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Interest">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-interest-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Interest_(emotion)"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_71_80_something">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">something</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#DT"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80</j.4:ends>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#thing_1"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">71</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_54_56_or">
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">56</j.4:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Union"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_35_42_emotion">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">35</j.4:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#emotion_1"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</j.4:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotion</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Emotion"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_33_34_%2C">
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">34</j.4:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Rel"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.4:begins>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Emotion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-emotion-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Emotion"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#interest_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Interest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse">
+    <j.4:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indifference is a lack of feeling, emotion, interest, or concern about something.</j.4:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_0_12_Indifference">
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indifference</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Concern"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</j.4:ends>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Indifference"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Lack"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.4:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Indifference">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Concern"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Lack"/>
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Apathy"/>
+    <j.3:lackOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#feeling_1"/>
+    <j.3:about rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#thing_1"/>
+    <j.6:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-concern-noun-1">
+    <j.5:gloss xml:lang="en-us">something that interests you because it is important or affects you; "the safety of the ship is the captain's concern"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#disjunct_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#thing_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Concern"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Indifference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#lackOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-feeling-noun-1">
+    <j.5:gloss xml:lang="en-us">the experiencing of affective and emotional states; "she had a feeling of euphoria"; "he had terrible feelings of guilt"; "I disliked him and the feeling was mutual"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-interest-noun-1">
+    <j.5:gloss xml:lang="en-us">a sense of concern with and curiosity about someone or something; "an interest in music"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Feeling">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Emotion"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-feeling-noun-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_tops"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Lack">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Possession"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-lack-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-emotion-noun-1">
+    <j.5:gloss xml:lang="en-us">any strong feeling</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Concern">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Worry"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PointOfDispute"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-concern-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#emotion_1">
+    <j.8:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#interest_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Emotion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#offset_57_64_concern">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.4:begins>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">64</j.4:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Indifference"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concern</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#Concern"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Indifference-wd.rdf#concern_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+</rdf:RDF>
