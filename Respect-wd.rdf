@@ -1,0 +1,522 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#"
+    xmlns:j.4="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.5="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.7="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Respect">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Regard"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Respect"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-esteem-noun-1"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_51_53_or">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">51</j.4:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Union"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">53</j.4:ends>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#HighEsteem"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Regard"/>
+    <j.7:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#High"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#feeling_1">
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-esteem-noun-1">
+    <j.5:gloss xml:lang="en-us">the condition of being honored (esteemed or respected or well regarded); "it is held in esteem"; "a man who has earned high regard"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#call_1">
+    <j.8:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#respect_1"/>
+    <j.7:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Also"/>
+    <j.8:Predicate rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#AlsoCall"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Call">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SimpleNaming"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Contacting"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Labeling"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Motion"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Call_29030000"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ClaimOwnership"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ReferringByName"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Request"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Deserving"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/BeingNamed"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/NameConferral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_9_13_also">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">also</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#RB"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Also"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">13</j.4:ends>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#respect_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Action"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#PositiveFeeling"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Respect"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_125_127_in">
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Location"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127</j.4:ends>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_86_95_something">
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#DT"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#thing_1"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</j.4:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">something</rdfs:label>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">95</j.4:ends>
+    <j.2:hasInterpretant rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#show_1">
+    <j.8:Patient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#respect_1"/>
+    <j.3:towards rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#thing_1"/>
+    <j.3:towards rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#person_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Show"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#person_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Person"/>
+    <j.7:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Important"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_61_66_shown">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">61</j.4:begins>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#show_1"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Show"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">66</j.4:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Hold">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Inclusion"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Hold_54030000"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Possession"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Containing"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Manipulation"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#disjunct_3">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Disjunct"/>
+    <j.3:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#disjunct_4"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Feeling"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#respect_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Positive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Consider">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Consider_29090111"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Discussion"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Cogitation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_120_124_held">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#hold_1"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Hold"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">held</rdfs:label>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">124</j.4:ends>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">120</j.4:begins>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_21_27_esteem">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">21</j.4:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esteem</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Esteem"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_1"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_2"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.4:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Esteem">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-esteem-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Self-esteem"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Regard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Esteem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_14_20_called">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</j.4:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Call"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</j.4:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">called</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBD"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#call_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Positive">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-positive-adjective-1"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Differentiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Patient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_34_42_positive">
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">34</j.4:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Positive"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</j.4:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-action-noun-1">
+    <j.5:gloss xml:lang="en-us">something done (usually as opposed to something said); "there were stories of murders and other unnatural actions"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.7:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Important"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#PositiveFeeling">
+    <j.7:hasModality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Positive"/>
+    <j.7:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Feeling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#High">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-high-adjective-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Dimension"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MeasurableAttributes"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PositionOnAScale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#consider_1">
+    <j.3:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#hold_1"/>
+    <j.8:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#thing_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Consider"/>
+    <j.8:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#person_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_110_112_or">
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112</j.4:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Union"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">110</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_75_82_someone">
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#DT"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">75</j.4:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#person_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">someone</rdfs:label>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">82</j.4:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Person"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#disjunct_4">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#person_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Important"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Show"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Action"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#thing_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Person"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#show_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Hold"/>
+    <j.0:involves rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Esteem"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#consider_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#respect_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Consider"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#High"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_2"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Regard"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#hold_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_143_149_regard">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regard</rdfs:label>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">143</j.4:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#regard_1"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">149</j.4:ends>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Regard"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#AlsoCall">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Call"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_128_132_high">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">128</j.4:begins>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">132</j.4:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#High"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Also">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#HighEsteem">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Self-esteem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Esteem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Important">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Action">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-action-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Action_theory_(philosophy)"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/IntentionallyAct"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Feeling">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_tops"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Emotion"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-feeling-noun-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_54_60_action">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Action"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#action_1"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</j.4:ends>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</j.4:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">action</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#disjunct_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Disjunct"/>
+    <j.3:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#disjunct_2"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Esteem"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#High"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_107_116_important">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">107</j.4:begins>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">important</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Important"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">116</j.4:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.4:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respect, also called esteem, is a positive feeling or action shown towards someone or something considered important or held in high esteem or regard</j.4:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_0_7_Respect">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Respect"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.4:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#respect_1"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</j.4:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respect</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#towards">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Person">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_96_106_considered">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">96</j.4:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Consider"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">106</j.4:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">considered</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#consider_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_67_74_towards">
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</j.4:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">towards</rdfs:label>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">67</j.4:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Towards"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_43_50_feeling">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeling</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.4:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#feeling_1"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.4:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Feeling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_128_139_high+esteem">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#HighEsteem"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high esteem</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Esteem</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">128</j.4:begins>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">139</j.4:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_83_85_or">
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">83</j.4:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">85</j.4:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Union"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Predicate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-feeling-noun-1">
+    <j.5:gloss xml:lang="en-us">the experiencing of affective and emotional states; "she had a feeling of euphoria"; "he had terrible feelings of guilt"; "I disliked him and the feeling was mutual"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Show">
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Show_40032000"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CauseToPerceive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#hold_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Hold"/>
+    <j.8:Value rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#thing_1"/>
+    <j.8:Value rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#person_1"/>
+    <j.8:Location rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#disjunct_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Regard"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#esteem_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_140_142_or">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">140</j.4:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Union"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.6:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">142</j.4:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Regard">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-esteem-noun-1"/>
+    <j.6:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Regard"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_34_50_positive+feeling">
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.4:ends>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#PositiveFeeling"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive feeling</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positive Feeling</rdfs:label>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">34</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_133_139_esteem">
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">133</j.4:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esteem</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esteem</rdfs:label>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">139</j.4:ends>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Esteem"/>
+  </rdf:Description>
+</rdf:RDF>
