@@ -1,0 +1,1047 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+     xmlns:j.1="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+     xmlns:j.2="http://dbpedia.org/resource/"
+     xmlns:j.3="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+     xmlns:j.4="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+     xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+     xmlns:j.6="http://www.essepuntato.it/2008/12/earmark#"
+     xmlns:j.7="http://www.w3.org/2006/03/wn/wn30/schema/"
+     xmlns:j.8="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#"
+     xmlns:j.9="http://www.ontologydesignpatterns.org/ont/vn/abox/role/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/schema/gloss -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2006/03/wn/wn30/schema/gloss"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes -->
+
+    <ObjectProperty rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes"/>
+    
+
+
+    <!-- http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant -->
+
+    <ObjectProperty rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant"/>
+    
+
+
+    <!-- http://www.essepuntato.it/2008/12/earmark#begins -->
+
+    <ObjectProperty rdf:about="http://www.essepuntato.it/2008/12/earmark#begins"/>
+    
+
+
+    <!-- http://www.essepuntato.it/2008/12/earmark#ends -->
+
+    <ObjectProperty rdf:about="http://www.essepuntato.it/2008/12/earmark#ends"/>
+    
+
+
+    <!-- http://www.essepuntato.it/2008/12/earmark#hasContent -->
+
+    <ObjectProperty rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent"/>
+    
+
+
+    <!-- http://www.essepuntato.it/2008/12/earmark#refersTo -->
+
+    <ObjectProperty rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/vn/abox/role/Location -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Location"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme -->
+
+    <ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#equivalentClass -->
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#inContextOf -->
+
+    <ObjectProperty rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#inContextOf"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#to -->
+
+    <ObjectProperty rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#to"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#union -->
+
+    <ObjectProperty rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#union"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Contentment -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Contentment">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment"/>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Emotion -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Emotion"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Happiness -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Happiness">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness"/>
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy"/>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Context_(language_use) -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Context_(language_use)">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context"/>
+    </Class>
+    
+
+
+    <!-- http://www.essepuntato.it/2008/12/earmark#PointerRange -->
+
+    <Class rdf:about="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    
+
+
+    <!-- http://www.essepuntato.it/2008/12/earmark#StringDocuverse -->
+
+    <Class rdf:about="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity -->
+
+    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description -->
+
+    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event -->
+
+    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality -->
+
+    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/vn/data/Range_47070000 -->
+
+    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/vn/data/Range_47070000">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Range"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_communication -->
+
+    <Class rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_communication"/>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling -->
+
+    <Class rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/instances/synset-contentment-noun-1 -->
+
+    <Class rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-contentment-noun-1">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment"/>
+        <j.7:gloss xml:lang="en-us">happiness with one&apos;s situation in life</j.7:gloss>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/instances/synset-context-noun-1 -->
+
+    <Class rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-context-noun-1">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context"/>
+        <j.7:gloss xml:lang="en-us">discourse that surrounds a language unit and helps to determine its interpretation</j.7:gloss>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/instances/synset-happiness-noun-2 -->
+
+    <Class rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-happiness-noun-2">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness"/>
+        <j.7:gloss xml:lang="en-us">emotions experienced when in a state of well-being</j.7:gloss>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/instances/synset-intense-adjective-1 -->
+
+    <Class rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-intense-adjective-1">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Intense"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn30/instances/synset-joy-noun-1 -->
+
+    <Class rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-joy-noun-1">
+        <equivalentClass rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy"/>
+        <j.7:gloss xml:lang="en-us">the emotion of great happiness</j.7:gloss>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_communication"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Disjunct -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Disjunct"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#EmotionalState -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#EmotionalState">
+        <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Intense -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Intense">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#IntenseJoy -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#IntenseJoy">
+        <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#PleasantEmotion -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#PleasantEmotion">
+        <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Range -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Range">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    </Class>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State -->
+
+    <Class rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Affect_measures -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Affect_measures">
+        <sameAs rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotional"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cognition -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Cognition">
+        <sameAs rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Mental"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pleasure -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Pleasure">
+        <sameAs rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Pleasant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Positive_psychology -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Positive_psychology">
+        <sameAs rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Positive"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/vn/abox/role/Location -->
+
+    <NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Location"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotional -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotional">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#In -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#In"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Incontextof -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Incontextof"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Intense -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Intense">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#IntenseJoy -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#IntenseJoy">
+        <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Intense"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Mental -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Mental">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Pleasant -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Pleasant">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Positive -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Positive">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Range -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Range">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State">
+        <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#To -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#To"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Union -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Union"/>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#contentment_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#contentment_1">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#context_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#context_1">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context"/>
+        <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_1">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Disjunct"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Positive"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#happiness_1"/>
+        <j.8:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_2 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_2">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Disjunct"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Pleasant"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#happiness_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_3 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_3">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Disjunct"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Mental"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#state_1"/>
+        <j.8:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_4 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#disjunct_4">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Disjunct"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotional"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State"/>
+        <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#state_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+        <j.6:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Happiness, in the context of mental or emotional states, is positive or pleasant emotions ranging from contentment to intense joy.</j.6:hasContent>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#emotion_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#emotion_1">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Emotion"/>
+        <j.5:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#happiness_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#happiness_1">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness"/>
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#PleasantEmotion"/>
+        <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Pleasant"/>
+        <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Positive"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#joy_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#joy_1">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#IntenseJoy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_0_9_Happiness -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_0_9_Happiness">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#happiness_1"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Happiness"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Happiness</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_103_114_contentment -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_103_114_contentment">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#contentment_1"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Contentment"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">103</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">114</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contentment</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_115_117_to -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_115_117_to">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#To"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">117</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_118_125_intense -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_118_125_intense">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Intense"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">118</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intense</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_126_129_joy -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_126_129_joy">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#joy_1"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Joy"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">126</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">129</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_18_25_context -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_18_25_context">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#context_1"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Context"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">context</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_29_35_mental -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_29_35_mental">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Mental"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">35</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_36_38_or -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_36_38_or">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Union"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_39_48_emotional -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_39_48_emotional">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotional"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">39</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">48</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_49_55_states -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_49_55_states">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#state_1"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#State"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">55</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">states</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_4_6_in -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_4_6_in">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#In"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_60_68_positive -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_60_68_positive">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Positive"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_69_71_or -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_69_71_or">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Union"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">69</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">71</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_72_80_pleasant -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_72_80_pleasant">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Pleasant"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">72</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleasant</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_81_89_emotions -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_81_89_emotions">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#emotion_1"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotion"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">81</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">89</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotions</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_90_97_ranging -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_90_97_ranging">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#range_1"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Range"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">97</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ranging</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_98_102_from -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_98_102_from">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Location"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">98</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">102</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#range_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#range_1">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Range"/>
+        <j.9:Location rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#contentment_1"/>
+        <j.9:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#happiness_1"/>
+        <j.8:inContextOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#state_1"/>
+        <j.8:to rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#joy_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#state_1 -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#state_1">
+        <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#EmotionalState"/>
+        <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Emotional"/>
+        <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Mental"/>
+        <j.5:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_118_129_intense+joy -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_118_129_intense+joy">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#IntenseJoy"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">118</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">129</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intense Joy</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intense joy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_11_28_in+the+context+of -->
+
+    <NamedIndividual rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#offset_11_28_in+the+context+of">
+        <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+        <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#Incontextof"/>
+        <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Happiness-wd.rdf#docuverse"/>
+        <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</j.6:begins>
+        <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.6:ends>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in the context of</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
