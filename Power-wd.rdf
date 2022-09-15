@@ -258,7 +258,7 @@
     <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse">
-    <j.6:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Power_is the social production of an effect that determines the capacities, actions, beliefs, or conduct of actors.</j.6:hasContent>
+    <j.6:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Power_is the social production of an effect that determines the capacities, actions, beliefs, or conduct of actors</j.6:hasContent>
     <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_37_43_effect">
