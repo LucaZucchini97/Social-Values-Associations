@@ -1,4 +1,4 @@
-rdf:RDF
+<rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
     xmlns:j.1="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#"
