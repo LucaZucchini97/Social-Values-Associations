@@ -1,0 +1,168 @@
+rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#"
+    xmlns:j.2="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.3="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.4="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.5="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.7="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#" > 
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#offset_0_8_Dishonor">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.4:begins>
+    <j.3:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Dishonor"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</j.4:ends>
+    <j.3:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#State"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dishonor</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#docuverse"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#State">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_location"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PoliticalLocales"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Location"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/State_(polity)"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-state-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#offset_14_19_state">
+    <j.3:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#State"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">19</j.4:ends>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#docuverse"/>
+    <j.3:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#state_1"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</j.4:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">state</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Dishonor"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Disgrace">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-shame-noun-2"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/JudgmentCommunication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#stateOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#disjunct_1">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#shame_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Disjunct"/>
+    <j.1:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#disjunct_2"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Shame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.4:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dishonor is a state of shame or disgrace.</j.4:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#offset_32_40_disgrace">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disgrace</rdfs:label>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">32</j.4:begins>
+    <j.3:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#disgrace_1"/>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#docuverse"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">40</j.4:ends>
+    <j.3:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Disgrace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Shame">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-shame-noun-2"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Shame"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/JudgmentCommunication"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Dishonor">
+    <j.1:stateOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#shame_1"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Honour"/>
+    <j.6:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.2:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#State"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#offset_23_28_shame">
+    <j.3:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#shame_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shame</rdfs:label>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.4:begins>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Shame"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.4:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#offset_29_31_or">
+    <j.3:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Union"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</j.4:ends>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#docuverse"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</j.4:begins>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#offset_20_22_of">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.3:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Of"/>
+    <j.4:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</j.4:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.4:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#docuverse"/>
+    <j.4:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</j.4:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-state-noun-1">
+    <j.5:gloss xml:lang="en-us">the territory occupied by one of the constituent administrative districts of a nation; "his state is in the deep south"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-shame-noun-2">
+    <j.5:gloss xml:lang="en-us">a state of dishonor; "one mistake brought shame to all his family"; "suffered the ignominy of being sent to prison"</j.5:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#disjunct_2">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Disgrace"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#shame_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Disjunct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#shame_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Shame"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Dishonor-wd.rdf#Disgrace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+</rdf:RDF>
