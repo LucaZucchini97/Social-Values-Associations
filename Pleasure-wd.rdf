@@ -1,0 +1,191 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.1="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.3="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.6="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#pleasure_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Pleasure"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Feeling"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Enjoyment"/>
+    <j.6:pleasureOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#satisfaction_1"/>
+    <j.0:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#satisfaction_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#HappySatisfaction"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Happy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#offset_25_43_happy+satisfaction">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">happy satisfaction</rdfs:label>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Happy Satisfaction</rdfs:label>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.2:ends>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#HappySatisfaction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#offset_48_57_enjoyment">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Enjoyment"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.2:ends>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#enjoyment_1"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">48</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enjoyment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#offset_22_24_of">
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</j.2:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Of"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</j.2:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#offset_31_43_satisfaction">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Satisfaction"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.2:ends>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</j.2:begins>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#satisfaction_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">satisfaction</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-pleasure-noun-1">
+    <j.3:gloss xml:lang="en-us">a fundamental feeling that is hard to define but that people desire to experience; "he was tingling with pleasure"</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#offset_0_8_Pleasure">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleasure</rdfs:label>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Pleasure"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</j.2:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#pleasure_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.2:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Enjoyment">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionsOfMentalActivity"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ExperiencerFocus"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-enjoyment-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Feeling">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_tops"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-feeling-noun-1"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Emotion"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Happy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-happy-adjective-1"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Happiness"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#pleasureOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#offset_14_21_feeling">
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">21</j.2:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Feeling"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeling</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#feeling_1"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</j.2:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-feeling-noun-1">
+    <j.3:gloss xml:lang="en-us">the experiencing of affective and emotional states; "she had a feeling of euphoria"; "he had terrible feelings of guilt"; "I disliked him and the feeling was mutual"</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Pleasure">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionsOfMentalActivity"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Pleasure"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-pleasure-noun-1"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ExperiencerFocus"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.2:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleasure is a feeling of happy satisfaction and enjoyment</j.2:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Satisfaction">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-satisfaction-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ExperiencerFocus"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Contentment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#HappySatisfaction">
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Happy"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Satisfaction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-enjoyment-noun-1">
+    <j.3:gloss xml:lang="en-us">the pleasure felt when having a good time</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#offset_25_30_happy">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</j.2:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#Happy"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pleasure-wd.rdf#docuverse"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</j.2:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">happy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-satisfaction-noun-1">
+    <j.3:gloss xml:lang="en-us">the contentment one feels when one has fulfilled a desire, need, or expectation; "the chef tasted the sauce with great satisfaction"</j.3:gloss>
+  </rdf:Description>
+</rdf:RDF>
