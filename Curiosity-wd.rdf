@@ -1,0 +1,416 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:j.2="http://dbpedia.org/resource/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.3="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.7="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.8="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.10="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Relate">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Relate_37070100"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_116_127_observation">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">116</j.7:begins>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Observation"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">observation</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#observation_1"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-learning-noun-1">
+    <j.8:gloss xml:lang="en-us">the cognitive process of acquiring skill or knowledge; "the child's acquisition of language"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_113_115_by">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#By"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">by</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#animal_1">
+    <owl:differentFrom rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#animal_2"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Animal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-exploration-noun-1">
+    <j.8:gloss xml:lang="en-us">to travel for the purpose of discovery</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_142_147_other">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Noteq"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">147</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#animal_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Animal"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">142</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#InquisitiveThinking">
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Inquisitive"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Thinking"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_74_75_%2C">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">75</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Rel"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Learning">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Learning"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-learning-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_34_54_inquisitive+thinking">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#InquisitiveThinking"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inquisitive thinking</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">34</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inquisitive Thinking</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#exploration_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Exploration"/>
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#such"/>
+    <j.5:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#investigation_1"/>
+    <j.5:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#learning_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_128_130_in">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">130</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">128</j.7:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#In"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Investigation">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-probe-noun-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Research"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CriminalInvestigation"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_148_155_animals">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animals</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">155</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Animal"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#animal_2"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">148</j.7:begins>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Observation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Observation"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-observation-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_95_103_learning">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Learning"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">103</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#learning_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">95</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#as">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_63_74_exploration">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exploration</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Exploration"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">63</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#exploration_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#observation_1">
+    <j.3:in rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#human_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Inquisitive">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-inquisitive-adjectivesatellite-1"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#human_1">
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Human"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Human"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_105_112_evident">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evident</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Evident"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Thinking">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-thinking-noun-1"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Thought"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-observation-noun-1">
+    <j.8:gloss xml:lang="en-us">the act of making and recording a measurement</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-quality-noun-1">
+    <j.8:gloss xml:lang="en-us">an essential and distinguishing attribute of something or someone; "the quality of mercy is not strained"--Shakespeare</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-thinking-noun-1">
+    <j.8:gloss xml:lang="en-us">the process of using your mind to consider something carefully; "thinking always made him frown"; "she paused for thought"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#animal_2">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#other"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Animal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Human">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#learning_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Learning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_31_33_to">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</j.7:begins>
+    <j.1:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Recipient"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_23_30_related">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Relate"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.7:begins>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#relate_1"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_46_54_thinking">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">46</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thinking</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#thinking_1"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Thinking"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#situationBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_34_45_inquisitive">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">45</j.7:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Inquisitive"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inquisitive</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">34</j.7:begins>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_15_22_quality">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Curiosity"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#quality_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">15</j.7:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Quality"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Curiosity">
+    <j.9:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Quality"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Curiosity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Evident">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_0_9_Curiosity">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Curiosity"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Quality"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curiosity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_60_62_as">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">62</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">as</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</j.7:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#As"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_76_89_investigation">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Investigation"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">89</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigation</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">76</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#investigation_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#offset_131_137_humans">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">131</j.7:begins>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#human_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humans</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Human"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">137</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#thinking_1">
+    <j.3:as rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#exploration_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#InquisitiveThinking"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Evident"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#investigation_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Investigation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#situation_1">
+    <j.3:situationBy rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#observation_1"/>
+    <j.3:situationBy rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#animal_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Evident"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#thinking_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Situation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#relate_1">
+    <j.10:Topic rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Curiosity"/>
+    <j.10:Recipient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#thinking_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Relate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Exploration">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-exploration-noun-1"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Recipient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-probe-noun-1">
+    <j.8:gloss xml:lang="en-us">an inquiry into unfamiliar or questionable activities; "there was a congressional probe into the scandal"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Animal">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#docuverse">
+    <j.7:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curiosity is a quality related to inquisitive thinking such as exploration, investigation, and learning, evident by observation in humans and other animals.</j.7:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Curiosity-wd.rdf#Quality">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Differentiation"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-quality-noun-1"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Quality_(philosophy)"/>
+  </rdf:Description>
+</rdf:RDF>
