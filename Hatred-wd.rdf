@@ -95,7 +95,7 @@
     <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-reaction-noun-3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#docuverse">
-    <j.7:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hatred is a very angry emotional response towards certain people or ideas, usually related to disliking something</j.7:hasContent>
+    <j.7:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hatred is a very angry emotional response towards certain people or ideas, usually related to disliking something.</j.7:hasContent>
     <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Hatred-wd.rdf#People">
