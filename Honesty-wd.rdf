@@ -1,0 +1,544 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:j.1="http://dbpedia.org/resource/"
+    xmlns:j.2="http://dbpedia.org/resource/Property_(philosophy)"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.5="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.7="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.8="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse">
+    <j.7:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honesty is a facet of moral character that connotes positive and virtuous attributes such as integrity, truthfulness, straightforwardness, including straightforwardness of conduct, along with the absence of lying, cheating, theft</j.7:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Virtuous">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Virtue"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_204_206_of">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Of"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">206</j.7:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">204</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Lie">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#straightforwardness_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Along"/>
+    <j.4:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#cheating_1"/>
+    <j.5:withAbsenceOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#lie_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Straightforwardness"/>
+    <j.5:include rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#straightforwardness_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Straightforwardness">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-downrightness-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_90_92_as">
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#As"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">as</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">92</j.7:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_207_212_lying">
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#lie_1"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">207</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">212</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lying</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Lie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_187_191_with">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191</j.7:ends>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#With"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">187</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">with</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_65_73_virtuous">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">73</j.7:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Virtuous"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virtuous</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_93_102_integrity">
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Integrity"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#integrity_1"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">93</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrity</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">102</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Theft">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-larceny-noun-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Theft"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Offenses"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Connote">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-cheat-noun-5">
+    <j.8:gloss xml:lang="en-us">a deception for profit to yourself</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-absence-noun-1">
+    <j.8:gloss xml:lang="en-us">the state of being absent; "he was surprised by the absence of any explanation"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_222_223_%2C">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">222</j.7:begins>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">223</j.7:ends>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Rel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#cheating_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Cheating"/>
+    <j.4:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#theft_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#theft_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Theft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#include">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#straightforwardness_2">
+    <j.5:straightforwardnessOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#conduct_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Straightforwardness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#conduct_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Conduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-integrity-noun-1">
+    <j.8:gloss xml:lang="en-us">an undivided or unbroken completeness or totality with nothing wanting; "the integrity of the nervous system is required for normal development"; "he took measures to insure the territorial unity of Croatia"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#lie_1">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Lie"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Lie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_13_18_facet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facet</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#facet_1"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Facet"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">13</j.7:begins>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Honesty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Along">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Moral">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MoralityEvaluation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-moral-adjective-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Integrity">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-integrity-noun-1"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Integrity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#facetOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#integrity_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Integrity"/>
+    <j.4:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#truthfulness_1"/>
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#such"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Cheating">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-cheat-noun-5"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Infidelity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_169_171_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">169</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171</j.7:ends>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Of"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Attribute">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_74_84_attributes">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Attribute"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">84</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attributes</rdfs:label>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#attribute_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#attribute_1">
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Virtuous"/>
+    <j.5:as rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#integrity_1"/>
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Property_(philosophy)"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#VirtuousAttribute"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Positive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Conduct">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-behavior-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Conduct"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_139_148_including">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">including</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">139</j.7:begins>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Include"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">148</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_102_103_%2C">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">102</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">103</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Rel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_22_37_moral+character">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moral character</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#MoralCharacter"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moral Character</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#patient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Honesty">
+    <j.5:facetOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#character_1"/>
+    <j.9:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Honesty"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Facet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_196_203_absence">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#absence_1"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">196</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">203</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absence</rdfs:label>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Absence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-downrightness-noun-1">
+    <j.8:gloss xml:lang="en-us">the quality of being direct and straightforward; "what some people take for rudeness is really straightforwardness"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#absence_1">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Absence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_181_186_along">
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#along_1"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Along"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">along</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">186</j.7:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#as">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Truthfulness">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Honesty"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Candidness"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-truthfulness-noun-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_214_222_cheating">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cheating</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Cheating"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">222</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">214</j.7:begins>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#cheating_1"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-aspect-noun-1">
+    <j.8:gloss xml:lang="en-us">a distinct feature or element in a problem; "he studied every facet of the question"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Positive">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Positivism"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#VirtuousAttribute">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_19_21_of">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">21</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">19</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Of"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_104_116_truthfulness">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">116</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#truthfulness_1"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Truthfulness"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">truthfulness</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">104</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_212_213_%2C">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">212</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Rel"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">213</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#straightforwardnessOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-behavior-noun-1">
+    <j.8:gloss xml:lang="en-us">manner of acting or controlling yourself</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_118_137_straightforwardness">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">137</j.7:ends>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Straightforwardness"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">118</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straightforwardness</rdfs:label>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#straightforwardness_2"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#straightforwardness_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_172_179_conduct">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Conduct"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">179</j.7:ends>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#conduct_1"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conduct</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#connote_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Connote"/>
+    <j.9:patient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#attribute_1"/>
+    <j.9:agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#character_1"/>
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Connotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_0_7_Honesty">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Facet"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.7:begins>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Honesty"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honesty</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Facet">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Distinctiveness"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-aspect-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_224_229_theft">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">theft</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">224</j.7:begins>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#theft_1"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">229</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Theft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#character_1">
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Moral"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#MoralCharacter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#withAbsenceOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-truthfulness-noun-1">
+    <j.8:gloss xml:lang="en-us">the quality of being truthful</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-larceny-noun-1">
+    <j.8:gloss xml:lang="en-us">the act of taking something from someone unlawfully; "the thieving is awful at Kennedy International"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Character">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_person"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-fictional%20character-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Personification"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_28_37_character">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</j.7:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#character_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">character</rdfs:label>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Character"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_43_51_connotes">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.7:begins>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#connote_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connotes</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Connote"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">51</j.7:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#MoralCharacter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Moral"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Character"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Moral_character"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_22_27_moral">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moral</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Moral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#truthfulness_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Truthfulness"/>
+    <j.4:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#straightforwardness_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-fictional%20character-noun-1">
+    <j.8:gloss xml:lang="en-us">an imaginary person represented in a work of fiction (play or film or story); "she is the main character in the novel"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_116_117_%2C">
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">116</j.7:begins>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Rel"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">117</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#offset_52_60_positive">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Positive"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">52</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Honesty-wd.rdf#Absence">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-absence-noun-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Possession"/>
+  </rdf:Description>
+</rdf:RDF>
