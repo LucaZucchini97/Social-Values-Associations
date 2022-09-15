@@ -1,0 +1,207 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.4="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#" > 
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_16_28_relationship">
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#relationship_1"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.3:ends>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Relationship"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-affection-noun-1">
+    <j.4:gloss xml:lang="en-us">a positive feeling of liking; "he had trouble expressing the affection he felt"; "the child won everyone's heart"; "the warmness of his welcome made us feel right at home"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Friendship">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PersonalRelationship"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-friendship-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Friendship"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Affection">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-affection-noun-1"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Affection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-friendship-noun-1">
+    <j.4:gloss xml:lang="en-us">the state of being friends (or friendly)</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-relationship-noun-1">
+    <j.4:gloss xml:lang="en-us">a relation between people; (`relationship' is often used where `relation' would serve, as in `the relationship between inflation and unemployment', but the preferred usage of `relationship' is for human relations or states of relatedness); "the relationship between mothers and their children"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#friendshipOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#between">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#MutualAffection">
+    <j.6:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Mutual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Affection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_32_38_mutual">
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutual</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Mutual"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">32</j.3:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Relationship">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CognitiveConnection"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-relationship-noun-1"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_relation"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Interpersonal_relationship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_57_63_people">
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#People"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#people_1"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">63</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.3:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#people_1">
+    <j.1:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#People"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_29_31_of">
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</j.3:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Of"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</j.3:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_49_56_between">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">between</rdfs:label>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">56</j.3:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Between"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</j.3:begins>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-people-noun-1">
+    <j.4:gloss xml:lang="en-us">(plural) any group of human beings (men or women or children) collectively; "old people"; "there were at least 200 people in the audience"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse">
+    <j.3:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friendship is a relationship of mutual affection between people.</j.3:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#friendship_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Friendship"/>
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Relationship"/>
+    <j.0:friendshipOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#affection_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#affection_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#MutualAffection"/>
+    <j.0:between rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#people_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_32_48_mutual+affection">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutual affection</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">48</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutual Affection</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#MutualAffection"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">32</j.3:begins>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#People">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-people-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_group"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/People"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Mutual">
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-common-adjectivesatellite-3"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_0_10_Friendship">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Friendship"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#friendship_1"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friendship</rdfs:label>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</j.3:ends>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.3:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#offset_39_48_affection">
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">39</j.3:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#affection_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">affection</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Friendship-wd.rdf#Affection"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">48</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+</rdf:RDF>
