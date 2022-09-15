@@ -1,0 +1,545 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5E"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:j.3="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.7="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.8="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.10="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_147_156_affection">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">147</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Affection"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#affection_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">affection</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">156</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-habit-noun-2">
+    <j.8:gloss xml:lang="en-us">(psychology) an automatic pattern of behavior in reaction to a specific situation; may be inherited or acquired through frequent repetition; "owls have nocturnal habits"; "she had a habit twirling the ends of her hair"; "long use had hardened him to it"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_125_156_deepest+interpersonal+affection">
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deepest interpersonal affection</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deepest Interpersonal Affection</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">156</j.7:ends>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#DeepestInterpersonalAffection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-affection-noun-1">
+    <j.8:gloss xml:lang="en-us">a positive feeling of liking; "he had trouble expressing the affection he felt"; "the child won everyone's heart"; "the warmness of his welcome made us feel right at home"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#from">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_133_156_interpersonal+affection">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">133</j.7:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#InterpersonalAffection"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpersonal affection</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">156</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpersonal Affection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse">
+    <j.7:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Love encompasses a range of strong and positive emotional and mental states, from the most sublime virtue or good habit, the deepest interpersonal affection, to the simplest pleasure.</j.7:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#state_1">
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Positive"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Strong"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Emotional"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#MentalState"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Mental"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Love">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Love"/>
+    <j.9:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_91_98_sublime">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sublime</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Sublime"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">98</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Most">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-most-adjective-1"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Quantity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5EsimplestAmong">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Virtue">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Virtue"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-virtue-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Emotional">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Emotion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_28_34_strong">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">34</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.7:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Strong"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strong</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Good">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-good-adjective-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SocialInteractionEvaluation"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Expertise"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Usefulness"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Desirability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_125_132_deepest">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5Edeepest"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJS"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">132</j.7:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Deepest"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deepest</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#disjunct_1">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Virtue"/>
+    <j.3:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#disjunct_2"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#virtue_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Disjunct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-scope-noun-1">
+    <j.8:gloss xml:lang="en-us">an area in which something acts or operates or has power or control: "the range of a supersonic jet"; "a piano has a greater range than the human voice"; "the ambit of municipal legislation"; "within the compass of this article"; "within the scope of an investigation"; "outside the reach of the law"; "in the political orbit of a world power"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-virtue-noun-1">
+    <j.8:gloss xml:lang="en-us">the quality of doing what is right and avoiding what is wrong</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#deepestAmong">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_109_113_good">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Good"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">good</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">109</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_62_68_mental">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Mental"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">62</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#InterpersonalAffection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Affection"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Interpersonal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_158_160_to">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">158</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#To"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">160</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Range">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Scope"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Diversity"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-scope-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#MentalState">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#State"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_69_75_states">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#State"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">75</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">states</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#state_1"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">69</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#affection_1">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#DeepestInterpersonalAffection"/>
+    <j.3:deepestAmong rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#InterpersonalAffection"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#InterpersonalAffection"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Deepest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_109_119_good+habit">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#GoodHabit"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">109</j.7:begins>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">119</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good Habit</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">good habit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#SublimeVirtue">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Virtue"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Sublime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Affection">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-affection-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Affection"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Mental">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Cognitive_psychology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Habit">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Custom"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-habit-noun-2"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Interpersonal">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-interpersonal-adjectivesatellite-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Interpersonal_relationship"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#disjunct_2">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Good"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#virtue_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Habit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_39_47_positive">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">47</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Positive"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">39</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_133_146_interpersonal">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">133</j.7:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpersonal</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Interpersonal"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">146</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_5_16_encompasses">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</j.7:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Encompass"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBZ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">encompasses</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#encompass_1"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#State">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_99_105_virtue">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virtue</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Virtue"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#virtue_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_106_108_or">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108</j.7:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Union"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">106</j.7:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_91_105_sublime+virtue">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</j.7:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sublime virtue</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sublime Virtue</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#SublimeVirtue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Pleasure">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-pleasure-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ExperiencerFocus"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionsOfMentalActivity"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Pleasure"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#encompass_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Encompass"/>
+    <j.10:Theme1 rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Love"/>
+    <j.10:Theme2 rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#range_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_0_4_Love">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Love</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.7:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Love"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5EsimplestPleasure">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Pleasure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#virtue_1">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#GoodHabit"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Most"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Sublime"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#MostSublimeVirtue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#GoodHabit">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Habit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Good"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_48_57_emotional">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.7:ends>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">48</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Emotional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5Esimplest">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Strong">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#rangeOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Deepest">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-pleasure-noun-1">
+    <j.8:gloss xml:lang="en-us">a fundamental feeling that is hard to define but that people desire to experience; "he was tingling with pleasure"</j.8:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Encompass">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Encompass_47080000"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_174_182_pleasure">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Pleasure"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#pleasure_1"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">182</j.7:ends>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">174</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleasure</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_25_27_of">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Of"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#pleasure_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5EsimplestPleasure"/>
+    <j.1:simplestAmong rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Pleasure"/>
+    <j.5:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5Esimplest"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Pleasure"/>
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Positive">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Positivism"/>
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_86_90_most">
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">most</rdfs:label>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#RBS"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Most"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</j.7:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Sublime">
+    <j.4:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Sublime_(philosophy)"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-empyreal-adjectivesatellite-2"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_19_24_range">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Range"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#range_1"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</j.7:ends>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">19</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">range</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_165_173_simplest">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5Esimplest"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simplest</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">165</j.7:begins>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJS"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#%5E%5Esimplest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_77_81_from">
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">81</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from</rdfs:label>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">77</j.7:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#From"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#range_1">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Range"/>
+    <j.3:rangeOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#state_1"/>
+    <j.3:from rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#affection_1"/>
+    <j.3:from rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#virtue_1"/>
+    <j.3:to rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#pleasure_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#DeepestInterpersonalAffection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#InterpersonalAffection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_86_105_most+sublime+virtue">
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</j.7:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Most Sublime Virtue</rdfs:label>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#MostSublimeVirtue"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</j.7:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">most sublime virtue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#MostSublimeVirtue">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#SublimeVirtue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#offset_114_119_habit">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habit</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#Habit"/>
+    <j.7:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">119</j.7:ends>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Love-wd.rdf#habit_1"/>
+    <j.4:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.7:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">114</j.7:begins>
+  </rdf:Description>
+</rdf:RDF>
