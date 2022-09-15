@@ -391,7 +391,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#docuverse">
     <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
-    <j.4:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respect, also called esteem, is a positive feeling or action shown towards someone or something considered important or held in high esteem or regard</j.4:hasContent>
+    <j.4:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respect, also called esteem, is a positive feeling or action shown towards someone or something considered important or held in high esteem or regard.</j.4:hasContent>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#offset_0_7_Respect">
     <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Respect-wd.rdf#Respect"/>
