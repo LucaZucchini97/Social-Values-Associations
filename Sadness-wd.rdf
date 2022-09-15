@@ -1,0 +1,408 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:j.1="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#"
+    xmlns:j.2="http://dbpedia.org/resource/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.6="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.7="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Characterize">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Distinctiveness"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Characterize_29020100"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_115_127_helplessness">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#helplessness_1"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Helplessness"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helplessness</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#feeling_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Feeling"/>
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Emotion"/>
+    <j.5:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Despair">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-despair-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ExperiencerFocus"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Depression_(mood)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_108_113_grief">
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grief</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#grief_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Grief"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113</j.6:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_79_91_disadvantage">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</j.6:ends>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Disadvantage"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#disadvantage_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disadvantage</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">79</j.6:begins>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Helplessness">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-helplessness-noun-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Learned_helplessness"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Grief">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-grief-noun-1"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Grief"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_49_62_characterized">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#characterize_1"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">62</j.6:ends>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</j.6:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Characterize"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterized</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-helplessness-noun-1">
+    <j.7:gloss xml:lang="en-us">powerlessness revealed by an inability to act; "in spite of their weakness the group remains active"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-loss-noun-1">
+    <j.7:gloss xml:lang="en-us">something that is lost; "the car was a total loss"; "loss of livestock left the rancher bankrupt"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Disadvantage">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-disadvantage-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_46_48_or">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">46</j.6:begins>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Union"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">48</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Disappointment">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-disappointment-noun-1"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Disappointment"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_148_154_sorrow">
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorrow</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">154</j.6:ends>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#sorrow_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sorrow"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">148</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#pain_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Pain"/>
+    <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#an"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#byFeelingOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_24_28_pain">
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#pain_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.6:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pain</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sadness"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Pain"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.6:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sadness is an emotional pain associated with, or characterized by, feelings of disadvantage, loss, despair, grief, helplessness, disappointment and sorrow.</j.6:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#disadvantage_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Disappointment"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Loss"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Helplessness"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Grief"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Despair"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sorrow"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Disadvantage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_14_28_emotional+pain">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotional Pain</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional pain</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.6:ends>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#EmotionalPain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sadness">
+    <owl:sameAs rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#pain_1"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Emotional"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#EmotionalPain"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Sadness"/>
+    <j.8:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-disappointment-noun-1">
+    <j.7:gloss xml:lang="en-us">a feeling of dissatisfaction that results when your expectations are not realized; "his hopes were so high he was doomed to disappointment"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_40_44_with">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">40</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">with</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">44</j.6:ends>
+    <j.0:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Patient2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-disadvantage-noun-1">
+    <j.7:gloss xml:lang="en-us">the quality of having an inferior or less favorable position</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_129_143_disappointment">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">129</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disappointment</rdfs:label>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#disappointment_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Disappointment"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">143</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Patient2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-despair-noun-1">
+    <j.7:gloss xml:lang="en-us">a state in which all hope is lost or absent; "in the depths of despair"; "they were rescued from despair at the last minute"; "courage born of desperation"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-grief-noun-1">
+    <j.7:gloss xml:lang="en-us">intense sorrow caused by loss of a loved one (especially by death)</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Feeling">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-pain-noun-1">
+    <j.7:gloss xml:lang="en-us">a symptom of some physical hurt or disorder; "the patient developed severe pain and distension"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_0_7_Sadness">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sadness</rdfs:label>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Pain"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sadness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_63_65_by">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">63</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">by</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#By"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_29_39_associated">
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Associate"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#associate_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">39</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associated</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#characterize_1">
+    <j.1:byFeelingOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#disadvantage_1"/>
+    <j.9:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sadness"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Characterize"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_76_78_of">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Of"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">76</j.6:begins>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">78</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Patient1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#EmotionalPain">
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Pain"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Psychological_pain"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Emotional"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Loss">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Grief"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-loss-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_possession"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Possession"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-sorrow-noun-1">
+    <j.7:gloss xml:lang="en-us">an emotion of great sadness associated with loss or bereavement; "he tried to express his sorrow at her loss"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_93_97_loss">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">97</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Loss"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">93</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#loss_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Associate">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Associate_22020200"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/RelatingConcepts"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Pain">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-pain-noun-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_state"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PerceptionBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#associate_1">
+    <j.9:Patient1 rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sadness"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Associate"/>
+    <j.9:Patient2 rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#feeling_1"/>
+    <j.1:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#characterize_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_67_75_feelings">
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Feeling"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">67</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feelings</rdfs:label>
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#feeling_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">75</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Emotional">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-emotional-adjective-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_99_106_despair">
+    <j.0:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#despair_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">106</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Despair"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">despair</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#offset_14_23_emotional">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#docuverse"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</j.6:begins>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.6:ends>
+    <j.0:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Emotional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Sadness-wd.rdf#Sorrow">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-sorrow-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_feeling"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Sorrow_(emotion)"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/EmotionDirected"/>
+  </rdf:Description>
+</rdf:RDF>
