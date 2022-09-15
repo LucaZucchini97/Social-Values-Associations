@@ -1,0 +1,474 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.1="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.3="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/vn/abox/role/"
+    xmlns:j.7="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Person">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-person-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_tops"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_145_150_place">
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">145</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">place</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#place_1"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">150</j.2:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Place"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VB"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_151_158_oneself">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">151</j.2:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Oneself"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#oneself_1"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">158</j.2:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oneself</rdfs:label>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-capacity-noun-1">
+    <j.3:gloss xml:lang="en-us">capability to perform or produce; "among his gifts is his capacity for true altruism"; "limited runway capacity"; "a great capacity for growth"</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Proposition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#from">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#frame_1">
+    <j.7:frameOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#reference_1"/>
+    <j.7:frameOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#capacity_2"/>
+    <j.7:frameOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_2"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Frame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-mention-noun-1">
+    <j.3:gloss xml:lang="en-us">a remark that calls attention to something or someone; "she made frequent mention of her promotion"; "there was no mention of it"; "the speaker made several references to his wife"</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_69_81_experiencing">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#experience_1"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">69</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiencing</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Experience"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">81</j.2:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#feel_1">
+    <j.6:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Empathy"/>
+    <j.6:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_3"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Feel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_133_141_capacity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capacity</rdfs:label>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">133</j.2:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capacity</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">141</j.2:ends>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Capacity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Destination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_125_127_is">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Eq"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBZ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is</rdfs:label>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125</j.2:begins>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127</j.2:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_100_105_frame">
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</j.2:begins>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#frame_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frame</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Frame"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</j.2:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_169_171_%27s">
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'s</rdfs:label>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#POS"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171</j.2:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">169</j.2:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_172_180_position">
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">position</rdfs:label>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172</j.2:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Position"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#position_1"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180</j.2:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_38_40_or">
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">40</j.2:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Union"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_51_58_another">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">51</j.2:begins>
+    <j.1:hasInterpretant rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">another</rdfs:label>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#DT"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">58</j.2:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#reference_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Reference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-frame-noun-1">
+    <j.3:gloss xml:lang="en-us">the framework for a pair of eyeglasses</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#capacity_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Capacity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.0:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#that"/>
+    <j.0:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#frameOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Oneself">
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Position">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Location"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/LocativeRelation"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-position-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_109_118_reference">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Reference"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">118</j.2:ends>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">109</j.2:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#reference_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Experience">
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SpellingAndPronouncing"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Experience_30020000"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#within">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Person"/>
+    <owl:differentFrom rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#experience_1">
+    <j.7:from rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_3"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Experience"/>
+    <j.7:within rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#frame_1"/>
+    <j.6:Experiencer rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_2"/>
+    <j.6:Experiencer rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#position_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Position"/>
+    <j.0:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#another"/>
+    <j.7:positionOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Experiencer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_46_50_what">
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">46</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_3"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#WP"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">what</rdfs:label>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.2:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Frame">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_artifact"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-frame-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_8_10_is">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is</rdfs:label>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBZ"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Eq"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</j.2:begins>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</j.2:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Understand">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Grasp"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-understand-verb-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Awareness"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ExperiencerFocus"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Understand_77000000"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Opinion"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/OthersSituationAsStimulus"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PerceptionExperience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#place_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Place"/>
+    <j.6:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#oneself_1"/>
+    <j.6:Destination rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#position_1"/>
+    <j.6:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#capacity_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Capacity">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-capacity-noun-1"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Capability"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_82_86_from">
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">82</j.2:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#From"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</j.2:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_106_108_of">
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Of"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108</j.2:ends>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">106</j.2:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_27_37_understand">
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#understand_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">understand</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Understand"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VB"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</j.2:ends>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Reference">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Statement"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Frame_of_reference"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Topic"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-mention-noun-1"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_communication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Person"/>
+    <owl:differentFrom rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_0_7_Empathy">
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.2:begins>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Empathy"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empathy</rdfs:label>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</j.2:ends>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_87_93_within">
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">within</rdfs:label>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">93</j.2:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Within"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">87</j.2:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#positionOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_15_23_capacity">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Capacity"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capacity</rdfs:label>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.2:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#capacity_2"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">15</j.2:begins>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#capacity_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Empathy">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Empathy"/>
+    <j.4:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Capacity"/>
+    <j.0:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Capacity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_59_65_person">
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</j.2:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Person"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">59</j.2:begins>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_3"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person</rdfs:label>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Place">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Causation"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Place_9010200"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Placing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-put-verb-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#understand_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Understand"/>
+    <j.6:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Empathy"/>
+    <j.6:Proposition rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_159_161_in">
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in</rdfs:label>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">161</j.2:ends>
+    <j.1:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Destination"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">159</j.2:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-position-noun-1">
+    <j.3:gloss xml:lang="en-us">the particular portion of space occupied by something; "he put the lamp back in its place"</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#oneself_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Oneself"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_41_45_feel">
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">45</j.2:ends>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VB"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#feel_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feel</rdfs:label>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Feel"/>
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</j.2:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#person_3">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Person"/>
+    <j.0:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#another"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.2:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empathy is the capacity to understand or feel what another person is experiencing from within their frame of reference, that is, the capacity to place oneself in another's position.</j.2:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-person-noun-1">
+    <j.3:gloss xml:lang="en-us">a human being; "there was too much for one person to do"</j.3:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Feel">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PerceptionExperience"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Seeking"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PerceptionActive"/>
+    <j.5:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Getting"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-feel-verb-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Feel_35010000"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Feeling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#offset_94_99_their">
+    <j.2:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94</j.2:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">their</rdfs:label>
+    <j.2:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#Of"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.5:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#PRP%24"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Empathy-wd.rdf#thing_2"/>
+    <j.2:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</j.2:ends>
+  </rdf:Description>
+</rdf:RDF>
