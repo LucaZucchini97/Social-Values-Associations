@@ -1,0 +1,325 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.6="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.7="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#production_1">
+    <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Belief">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Effect">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Causation"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-consequence-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ObjectiveInfluence"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_phenomenon"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/BeingInEffect"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Actor">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Production">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-production-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Manufacturing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#capacity_1">
+    <j.0:capacityOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#actor_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Belief"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Action"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Capacity"/>
+    <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <j.5:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Conduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Topic">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#socialProductionOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#determine_1">
+    <j.9:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#effect_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Determine"/>
+    <j.9:Theme rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#capacity_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_49_59_determines">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</j.6:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determines</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">59</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBZ"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Determine"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#determine_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-consequence-noun-1">
+    <j.7:gloss xml:lang="en-us">a phenomenon that follows and is caused by some previous phenomenon; "the magnetic effect was greater when the rod was lengthwise"; "his decision had depressing consequences for business"; "he acted very wise after the event"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_13_19_social">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">13</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">19</j.6:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Social"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_0_8_Power_is">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Power_is</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Production"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Power_is"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.6:begins>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</j.6:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-production-noun-1">
+    <j.7:gloss xml:lang="en-us">the act or process of producing something; "Shakespeare's production of poetry was enormous"; "the production of white blood cells"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#disjunct_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Disjunct"/>
+    <j.1:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Belief"/>
+    <j.1:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#capacity_1"/>
+    <j.0:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#disjunct_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Conduct">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-behavior-noun-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Conduct"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Social">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-social-adjective-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SocialInteractionEvaluation"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_108_114_actors">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108</j.6:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#actor_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">114</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actors</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Actor"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#effect_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Effect"/>
+    <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#an"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_97_104_conduct">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">97</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conduct</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Conduct"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#conduct_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">104</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#disjunct_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Disjunct"/>
+    <j.1:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#capacity_1"/>
+    <j.1:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Conduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_85_92_beliefs">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">85</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beliefs</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Belief"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#belief_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">92</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_64_74_capacities">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#capacity_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capacities</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Capacity"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">64</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#actor_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Actor"/>
+    <j.5:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_76_83_actions">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">83</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#action_1"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">76</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actions</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Action"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-behavior-noun-1">
+    <j.7:gloss xml:lang="en-us">manner of acting or controlling yourself</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_105_107_of">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">107</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Of"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_94_96_or">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">96</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94</j.6:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Union"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_13_30_social+production">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Production</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#SocialProduction"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">13</j.6:begins>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</j.6:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social production</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse">
+    <j.6:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Power_is the social production of an effect that determines the capacities, actions, beliefs, or conduct of actors.</j.6:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_37_43_effect">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Effect"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#effect_1"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effect</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.6:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Capacity">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Action">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#capacityOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#SocialProduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Production"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Social"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_31_33_of">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.6:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Of"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#offset_20_30_production">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Power_is"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">production</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</j.6:ends>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#production_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Production"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Power_is">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Power_Is_On"/>
+    <j.0:socialProductionOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#effect_1"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Topic"/>
+    <j.8:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#SocialProduction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Power-wd.rdf#Determine">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/ComingToBelieve"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Determine_84000000"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Contingency"/>
+  </rdf:Description>
+</rdf:RDF>
