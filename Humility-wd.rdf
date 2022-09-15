@@ -1,0 +1,282 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.2="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/cnlp/dependencies.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.6="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.7="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.8="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.10="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Humility">
+    <j.9:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Quality"/>
+    <j.4:other_coref rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#quality_1"/>
+    <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_46_49_low">
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">46</j.6:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Low"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_43_45_or">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.6:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">45</j.6:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Union"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.6:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humility is the quality of having a modest or low view of one's importance.</j.6:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#lowViewOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_16_23_quality">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#quality_1"/>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.6:ends>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</j.6:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-importance-noun-1">
+    <j.7:gloss xml:lang="en-us">the quality of being important and worthy of note; "the importance of a well-balanced diet"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_55_57_of">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.6:ends>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">55</j.6:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#importanceOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#have_1">
+    <j.10:Agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Humility"/>
+    <j.10:Patient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#view_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Have"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_50_54_view">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</j.6:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#view_1"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#View"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">view</rdfs:label>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-position-noun-3">
+    <j.7:gloss xml:lang="en-us">a way of regarding situations or topics etc.; "consider what follows from the positivist view"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/cnlp/dependencies.owl#other_coref">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Patient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-quality-noun-1">
+    <j.7:gloss xml:lang="en-us">an essential and distinguishing attribute of something or someone; "the quality of mercy is not strained"--Shakespeare</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Quality">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-quality-noun-1"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Differentiation"/>
+    <j.2:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_36_42_modest">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</j.6:ends>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Modest"/>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modest</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_64_74_importance">
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#importance_1"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">importance</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">64</j.6:begins>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Importance"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Low">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-low-adjective-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <j.2:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PositionOnAScale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_9_11_is">
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Eq"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</j.6:begins>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBZ"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Modest">
+    <j.2:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#View">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Range"/>
+    <j.2:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-position-noun-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#importance_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Importance"/>
+    <j.5:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#one"/>
+    <j.8:importanceOf rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</j.8:importanceOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Have">
+    <j.2:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Have_39040100"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Ingestion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#view_1">
+    <j.3:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Modest"/>
+    <j.8:lowViewOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#importance_1"/>
+    <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#LowView"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_46_54_low+view">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low view</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#LowView"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low View</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">46</j.6:begins>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#disjunct_2">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#view_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Low"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#View"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_61_63_%27s">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">61</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'s</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#POS"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Of"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">63</j.6:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_0_8_Humility">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.6:begins>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Humility"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</j.6:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humility</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Importance">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Importance"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-importance-noun-1"/>
+    <j.2:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#offset_27_33_having">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Have"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">having</rdfs:label>
+    <j.2:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.6:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#have_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#LowView">
+    <j.3:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Low"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#View"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#disjunct_1">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#view_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#Modest"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#View"/>
+    <j.8:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Humility-wd.rdf#disjunct_2"/>
+  </rdf:Description>
+</rdf:RDF>
