@@ -1,0 +1,405 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.2="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.6="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.7="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.9="http://www.ontologydesignpatterns.org/ont/vn/abox/role/" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#with">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#IntimateConnection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Intimate"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Connection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_19_27_response">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#response_1"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Response"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.6:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Pride"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">19</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_31_39_attitude">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">39</j.6:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Pride"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Attitude"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#attitude_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attitude</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#EmotionalResponse">
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Emotional"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Response"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Emotion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#perceive_1">
+    <j.9:Stimulus rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#value_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Perceive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#thing_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.2:with rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#connection_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#event_1">
+    <j.8:patient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Pride"/>
+    <j.2:to rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#thing_2"/>
+    <j.8:agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#thing_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#neuter_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_53_57_with">
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">53</j.6:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#With"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.6:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">with</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#disjunct_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Response"/>
+    <j.2:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#disjunct_2"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_43_52_something">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">52</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#DT"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#thing_2"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">something</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_70_80_connection">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Connection"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connection</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#connection_1"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">70</j.6:begins>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Intimate">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SocialConnection"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-intimate-adjectivesatellite-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_100_103_its">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</j.6:begins>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#PRP%24"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">103</j.6:ends>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#neuter_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">its</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Attitude">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/MentalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-attitude-noun-1"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-attitude-noun-1">
+    <j.7:gloss xml:lang="en-us">a complex mental state involving beliefs and feelings and values and dispositions to act in certain ways; "he had the attitude that work was fun"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Due">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_40_42_to">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#To"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">40</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_0_5_Pride">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</j.6:ends>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Response"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Attitude"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pride</rdfs:label>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Emotional">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-emotional-adjective-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-connection-noun-1">
+    <j.7:gloss xml:lang="en-us">a relation between things or events (as in the case of one causing the other or sharing features with it); "there was a connection between eating that pickle and having that nightmare"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#patient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Value">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Amount"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Usefulness"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-value-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#connection_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Connection"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#IntimateConnection"/>
+    <j.5:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#an"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_9_27_emotional+response">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.6:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional response</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotional Response</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#EmotionalResponse"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_61_80_intimate+connection">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intimate Connection</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#IntimateConnection"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80</j.6:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intimate connection</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">61</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-reaction-noun-3">
+    <j.7:gloss xml:lang="en-us">a bodily process occurring due to the effect of some antecedent stimulus or agent; "a bad reaction to the medicine"; "his responses have slowed with age"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Response">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-reaction-noun-3"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Process"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Response"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CommunicationResponse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_28_30_or">
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</j.6:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</j.6:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Union"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_9_18_emotional">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional</rdfs:label>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Emotional"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#valueOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_84_91_oneself">
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VB"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">84</j.6:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oneself</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Oneself"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#oneself_1"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#oneself_1">
+    <j.8:agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#connection_1"/>
+    <j.2:dueTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#value_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Oneself"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#dueTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-value-noun-1">
+    <j.7:gloss xml:lang="en-us">a numerical quantity measured or assigned or computed; "the value assigned was 16 milliseconds"</j.7:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/vn/abox/role/Stimulus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_114_119_value">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Value"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">119</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">114</j.6:begins>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#value_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_93_96_due">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">due</rdfs:label>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Due"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">93</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">96</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse">
+    <j.6:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pride is emotional response or attitude to something with an intimate connection to oneself, due to its perceived value.</j.6:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Oneself">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Connection">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SocialConnection"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_relation"/>
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-connection-noun-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_61_69_intimate">
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">61</j.6:begins>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intimate</rdfs:label>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">69</j.6:ends>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Intimate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_104_113_perceived">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <j.1:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#perceive_1"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Perceive"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceived</rdfs:label>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">104</j.6:begins>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#disjunct_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Attitude"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Perceive">
+    <j.3:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Perceive_30020000"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Perception"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/PerceptionExperience"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/BecomingAware"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Categorization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#value_1">
+    <j.2:valueOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#neuter_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#offset_81_83_to">
+    <j.6:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">83</j.6:ends>
+    <j.6:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.1:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#To"/>
+    <j.3:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#TO"/>
+    <j.6:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">81</j.6:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Pride">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Pride"/>
+    <j.4:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Emotional"/>
+    <j.8:possibleType rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#Attitude"/>
+    <owl:sameAs rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#connection_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Pride-wd.rdf#EmotionalResponse"/>
+  </rdf:Description>
+</rdf:RDF>
