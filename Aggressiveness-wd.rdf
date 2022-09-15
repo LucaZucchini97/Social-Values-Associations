@@ -1,0 +1,410 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.4="http://www.w3.org/2006/03/wn/wn30/schema/"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.6="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#"
+    xmlns:j.7="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#" > 
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#intention_1">
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Intention"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_27_33_covert">
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Covert"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">covert</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_35_40_often">
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">40</j.3:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Often"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#RB"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">often</rdfs:label>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">35</j.3:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_136_146_individual">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Individual"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">136</j.3:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_3"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">146</j.3:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_3">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Individual"/>
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#another"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#disjunct_1">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#aggressiveness_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Overt"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Disjunct"/>
+    <j.6:union rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#disjunct_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Overt">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_41_45_harm">
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#harm_2"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">45</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</j.3:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">harm</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harmful">
+    <j.8:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Often"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-damage-noun-1">
+    <j.4:gloss xml:lang="en-us">the occurrence of a change for the worse</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_33_34_%2C">
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33</j.3:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#%2C"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">34</j.3:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_50_68_social+interaction">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social interaction</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.3:begins>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Interaction</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#SocialInteraction"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_78_87_intention">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#intention_1"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">87</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">78</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Intention"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intention</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#harm_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harm"/>
+    <owl:differentFrom rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#harm_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Aggressiveness">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Aggression"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_attribute"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-aggressiveness-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Individual">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_tops"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/People"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-person-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-purpose-noun-1">
+    <j.4:gloss xml:lang="en-us">an anticipated outcome that is intended or that guides your planned actions; "his intent was to provide a new translation"; "good intentions are not enough"; "it was created with the conscious aim of answering immediate needs"; "he made no secret of his designs"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#with">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-aggressiveness-noun-1">
+    <j.4:gloss xml:lang="en-us">the quality of being bold and enterprising</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Damage">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/UndergoChange"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CauseChange"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-damage-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_102_108_damage">
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108</j.3:ends>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#damage_1"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">damage</rdfs:label>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">102</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Damage"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Social">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/SocialInteractionEvaluation"/>
+    <j.8:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Often"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-social-adjective-1"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#harm_2">
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#other"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Covert">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#patient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#damage_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Damage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_123_127_upon">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Upon"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">123</j.3:begins>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upon</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127</j.3:ends>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_1">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Individual"/>
+    <owl:differentFrom rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse">
+    <j.3:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggressiveness is overt or covert, often harmful, social interaction with the intention of inflicting damage or other harm upon another individual</j.3:hasContent>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_69_73_with">
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">with</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#With"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">69</j.3:begins>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">73</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#upon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_24_26_or">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</j.3:begins>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">26</j.3:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Union"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#aggressiveness_1">
+    <j.8:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Overt"/>
+    <j.8:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Covert"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Aggressiveness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Inflict">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harm">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-damage-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Event"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_event"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/CauseChange"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/UndergoChange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_112_117_other">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harm"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">117</j.3:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Noteq"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112</j.3:begins>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#harm_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_57_68_interaction">
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#interaction_1"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</j.3:begins>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</j.3:ends>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Interaction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Intention">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-purpose-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/Purpose"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_cognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_109_111_or">
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#CC"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Union"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">109</j.3:begins>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</rdfs:label>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">111</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_2">
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Individual"/>
+    <owl:differentFrom rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#disjunct_2">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#aggressiveness_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Disjunct"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Covert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#SocialInteraction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Interaction"/>
+    <j.8:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Social"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Social_relation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#situation_1">
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#aggressiveness_1"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Overt"/>
+    <j.0:involves rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Covert"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Situation"/>
+    <j.8:associatedWith rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#interaction_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_0_14_Aggressiveness">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Aggressiveness"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.3:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggressiveness</rdfs:label>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#aggressiveness_1"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_18_23_overt">
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Overt"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</j.3:ends>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</j.3:begins>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overt</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#inflict_1">
+    <j.5:patient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#harm_1"/>
+    <j.6:upon rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_2"/>
+    <j.6:upon rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#individual_1"/>
+    <j.5:agent rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#intention_1"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Inflict"/>
+    <j.5:patient rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#damage_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Often">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-interaction-noun-1">
+    <j.4:gloss xml:lang="en-us">a mutual or reciprocal action; interacting</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_50_56_social">
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social</rdfs:label>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">56</j.3:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Social"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</j.3:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/03/wn/wn30/instances/synset-person-noun-1">
+    <j.4:gloss xml:lang="en-us">a human being; "there was too much for one person to do"</j.4:gloss>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#interaction_1">
+    <j.8:hasQuality rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harmful"/>
+    <rdf:type rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#SocialInteraction"/>
+    <j.6:with rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#intention_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_91_101_inflicting">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflicting</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBG"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Inflict"/>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</j.3:begins>
+    <j.2:denotes rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#inflict_1"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#offset_41_48_harmful">
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">48</j.3:ends>
+    <j.3:refersTo rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#docuverse"/>
+    <j.2:hasInterpretant rdf:resource="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Harmful"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</j.3:begins>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">harmful</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/LucaZucchini97/Social-Values-Associations/Aggressiveness-wd.rdf#Interaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/supersense-noun_act"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2006/03/wn/wn30/instances/synset-interaction-noun-1"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/framester/data/framestercore/IntentionallyAct"/>
+  </rdf:Description>
+</rdf:RDF>
